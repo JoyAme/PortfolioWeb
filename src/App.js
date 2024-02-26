@@ -10,10 +10,14 @@ import Portfo from './Pages/Porfolio/Portfo';
 // import ImgFile from './../src/assest/ImgFile';
 
 import ParticlesBack from './ParticlesBack';
+import Home from './Home';
 
 
 
 function App() {
+
+
+
   return (
     <>
     
@@ -24,7 +28,8 @@ function App() {
       <Nav/>
       
       <Routes>
-        <Route path='/' element={<About/>}/>
+      <Route path='/' element={<Home/>}/>
+        <Route path='/about' element={<About/>}/>
         <Route path='/skills' element={<Skill/>}/>
         <Route path='/portfolio' element={<Portfo/>}/>
         <Route path='/contact' element={<Contact/>}/>

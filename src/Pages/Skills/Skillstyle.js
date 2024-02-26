@@ -11,7 +11,9 @@ img{
 .info-skill{
     display:flex;
     gap:40px;
-    justify-content:center;
+    align-items:center;
+    position:relative;
+    justify-content:space-around;
 }
 span{
     padding:0 70px;
@@ -21,24 +23,35 @@ span{
     background:black;
 }
 .left-side{
-    position:fixed;
-    left:100px;
-    /* right:860px; */
+    /* position:fixed; */
+       flex:0.4;
+
+ 
+ 
 }
+.right-side{
+   flex:0.3;
+}
+
 .Row-1{
     display:flex;
-    gap:40px;
+    gap:20px;
 }
 
 
 
 .icons{
-    background:black;
-    color:white;
-    width:100%;
-    /* height:100%; */
+    translate:scale(0.6);
+    background:white;
+    color:black;
+    flex:0.4;
+    cursor: pointer;
+//    width:200px;
+//    height:300px;
+    //  height:40vw; 
+    box-shadow:3px 3px 3px 3px cyan;
     border-radius:19px;
-    padding:10px 10px;
+    padding:20px 10px;
     .icon-body{
         width:50%;
         margin:auto;
@@ -81,9 +94,9 @@ span{
     /* right:860px; */
 }
 .Row-1{
-    display:flex;
-    flex-wrap:wrap;
-    gap:40px;
+   display:flex;
+   flex-direction:column;
+   row-gap:40px;
 }
 .Row-3{
     display:grid;
@@ -92,7 +105,8 @@ span{
     
 }
 .icons{
-  
+  flex:0.4;
+  flex-grow:0;
 }
 }
 

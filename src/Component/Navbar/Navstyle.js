@@ -17,12 +17,25 @@ right:0;
        li{
         list-style:none;
        }
-       a{
+      
+    }
+    a{
         text-decoration:none;
         font-size:20px;
         color:grey;
        }
-    }
+       .btn{
+        border-radius:19px;
+        background:#F3BE61;
+       /* box-shadow:  2px 10px rgb(243, 222, 186 ) ; */
+        border:none;
+        padding:5px 10px;
+        color:white;
+        a{
+            color:white;
+            font-size:18px;
+        }
+       }
 }
 
 `

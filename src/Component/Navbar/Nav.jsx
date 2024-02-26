@@ -14,9 +14,9 @@ const Nav = () => {
         <li><Link to='/'>About</Link></li>
         <li>  <Link to='/skills'>Skill</Link></li>
         <li><Link to='/portfolio'>Portfolio</Link></li>
-        <li> <Link to='/contact'>Contact</Link></li>
+        
         </ul>
-     
+        <button className='btn'><Link to='/contact'>Contact</Link></button>
     </div>
     </Container>
     </Navbar>

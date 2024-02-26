@@ -13,14 +13,14 @@ const Skill = () => {
           <div className='left-side'>
             <h4>Services</h4>
             <div className='skill'>
-            <h1>MY SKILLSET.</h1>
-            <span></span>
+                  <h1>MY SKILLSET.</h1>
+                 
+                  </div>
+                  <h5>Lorem ipsum dolor, sit amet 
+                    consectetur adipisicing elit.<br></br> Similique,
+                    doloremque? Impedit corrupti<br></br> excepturi 
+                    reiciendis ducimus?</h5>
             </div>
-            <h5>Lorem ipsum dolor, sit amet 
-              consectetur adipisicing elit.<br></br> Similique,
-              doloremque? Impedit corrupti<br></br> excepturi 
-              reiciendis ducimus?</h5>
-          </div>
 
 
               <div className='right-side'>
@@ -45,7 +45,7 @@ const Skill = () => {
                     <div>
                       <h1>TECHNOLOGIES</h1>
                     </div>
-                    <span></span>
+                    {/* <span></span> */}
                   </div>
 
                   <div className='Row-3'>

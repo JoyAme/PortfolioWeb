@@ -6,21 +6,22 @@ margin-top:90px;
 /* z-index:1000; */
 .project-s{
     margin-top:40px;
-    display:grid;
-    grid-template-columns:repeat(3,380px);
+    display:flex;
+    flex-wrap:wrap;
+    /* grid-template-columns:repeat(3,380px); */
     column-gap:20px;
     row-gap:20px;
 }
 img{
     width:100%;
-    height:100%;
-    object-fit:contain;
-    border-radius:19px;
+    height:15vw;
+    object-fit:cover;
+    border-radius:12px;
 }
 .project{
     position:relative;
     width:23vw;
-    height:100%;
+    /* height:100%; */
     /* display:flex;
     justify-content:center; */
 }

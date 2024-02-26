@@ -5,14 +5,14 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-/*   
-  background-image: url('./assest/gee.jpg'); */
+  /* background-image: linear-gradient(to bottom right, red, yellow); */
   background-repeat: no-repeat;
   background-position:center;
   object-fit: contain;
   background-size: contain;
   box-sizing: border-box;
-  background:#083358  ;
+  background:#191B46 ;
+  color:white;
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

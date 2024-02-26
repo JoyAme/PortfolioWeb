@@ -52,10 +52,6 @@ import { VscDebugAll } from "react-icons/vsc";
         img:'./images/redux.png',
         title:'Redux'
     },
-    {
-        img:'',
-        title:'Styled-component'
-    },
     
  ]
 
@@ -64,23 +60,19 @@ import { VscDebugAll } from "react-icons/vsc";
 
 //  porfolio page 
 export const BackGround=[
+   
     {
-        img:'./images/screen.png',
+        img:'./images/travel.png',
+
     },
     {
-        img:'./images/background.jpg',
+        img:'./images/sociomedia.png',
     },
     {
-        img:'./images/graphy.jpg',
+        img:'./images/Expressbuy.png',
     },
     {
-        img:'./images/graphy.jpg',
-    },
-    {
-        img:'./images/background.jpg',
-    },
-    {
-        img:'./images/background.jpg',
+        img:'./images/carmain.png',
     },
     {
         img:'./images/background.jpg',
