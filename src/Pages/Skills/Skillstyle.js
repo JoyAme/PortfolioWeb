@@ -10,10 +10,15 @@ img{
 }
 .info-skill{
     display:flex;
-    gap:40px;
+    /* gap:20px; */
     align-items:center;
     position:relative;
     justify-content:space-around;
+}
+.skill h1{
+    font-size:50px;
+    margin-top:10px;
+    margin-bottom:10px;
 }
 span{
     padding:0 70px;
@@ -24,13 +29,13 @@ span{
 }
 .left-side{
     /* position:fixed; */
-       flex:0.4;
+       /* flex:0.3; */
 
  
  
 }
 .right-side{
-   flex:0.3;
+   /* flex:0.3; */
 }
 
 .Row-1{
@@ -38,20 +43,24 @@ span{
     gap:20px;
 }
 
-
+.tech h1{
+    margin-top:20px;
+}
 
 .icons{
-    translate:scale(0.6);
+  display:flex;
+  align-items:center;
     background:white;
     color:black;
-    flex:0.4;
+    /* flex:0.6; */
+   margin-bottom:40px;
     cursor: pointer;
-//    width:200px;
-//    height:300px;
-    //  height:40vw; 
+    //    height:300px;
+    width:100%;
+     height:14vw; 
     box-shadow:3px 3px 3px 3px cyan;
     border-radius:19px;
-    padding:20px 10px;
+    padding:20px 40px;
     .icon-body{
         width:50%;
         margin:auto;
@@ -61,7 +70,7 @@ span{
         font-size:14px;
     }
     .icons-house{
-        font-size:35px;
+        font-size:38px;
     }
 
 }
@@ -70,12 +79,14 @@ span{
 .Row-3{
     display:grid;
     grid-template-columns:repeat(2,260px);
-   
+    row-gap:40px;
+    margin-top:50px;
     
 }
 .skill-type{
    display:flex;
    gap:10px;
+  
    align-items:center;
    .skill-type h4{
         font-size:20px;
@@ -85,18 +96,29 @@ span{
 
 @media screen and (max-width:478px){
     .info-skill{
-    display:block;
+    display:flex;
+    flex-direction:column;
+    gap:40px;
+    align-items:flex-start;
     
+}
+
+.skill h1{
+    font-size:25px;
+}
+.lorem{
+    font-size:12px;
 }
 .left-side{
     position:relative;
-    left:30px;
+   
+    /* left:30px; */
     /* right:860px; */
 }
 .Row-1{
    display:flex;
    flex-direction:column;
-   row-gap:40px;
+   row-gap:20px;
 }
 .Row-3{
     display:grid;
@@ -105,8 +127,10 @@ span{
     
 }
 .icons{
-  flex:0.4;
-  flex-grow:0;
+    width:90%;
+    height:45vw; 
+  /* flex:0.4;
+  flex-grow:0; */
 }
 }
 

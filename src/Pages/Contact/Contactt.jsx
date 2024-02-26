@@ -10,12 +10,10 @@ const Contact = () => {
     <>
     <ContactWrap>
       <Container>
-    <div>
-      <h5>Hire Me</h5>
+    <div className="contact-info">
+      <h5>Want to work with Me</h5>
       <h1>Contact Me.</h1>
-      <h6>Lorem, ipsum dolor sit amet 
-        consectetur adipisicing elit.<br></br> Et
-         quia veritatis, ut reiciendis nesciunt aliquam!</h6>
+      <h6>I create beautiful website to ensure that your brands stands unique</h6>
     </div>
 
     <div className="Hero">

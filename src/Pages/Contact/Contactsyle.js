@@ -14,6 +14,18 @@ margin-top:70px;
    width:40%;
    margin:auto;
 }
+.contact-info{
+    margin-top:120px;
+}
+.contact-info h1{
+    margin-top:10px;
+    font-size:50px;
+}
+.contact-info h6{
+    margin-top:30px;
+    font-size:16px;
+    width:250px;
+}
 .text-input{
     display:flex;
     gap:20px;
@@ -58,9 +70,11 @@ button{
     width:100%;
 }
 .Iconsz{
-    padding-top:30px;
-    margin-left:30px;
-    /* gap:30px; */
+    /* padding-top:30px;
+    margin-left:30px; */
+    display:flex;
+    margin-top:20px;
+    gap:30px;
     .icons{
         font-size:25px;
     }

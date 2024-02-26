@@ -12,6 +12,10 @@ margin-top:90px;
     column-gap:20px;
     row-gap:20px;
 }
+.pro-info h1{
+    font-size:50px;
+    margin-top:10px;
+}
 img{
     width:100%;
     height:15vw;
@@ -78,10 +82,19 @@ justify-content:space-around;
     grid-template-columns:repeat(2,180px);
     gap:20px;
 }
+.pro-info h1{
+    font-size:35px;
+}
+.pro-info h5{
+    font-size:16px;
+}
     .project{
     width:40vw;
     height:100%;
  
+}
+img{
+    height:30vw;
 }
 .overlay{
     width:40vw;

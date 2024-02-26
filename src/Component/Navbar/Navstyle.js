@@ -6,6 +6,7 @@ position:fixed;
 top:0;
 left:0;
 right:0;
+padding:20px 0px;
 .nav{
     display:flex;
     justify-content:space-between;

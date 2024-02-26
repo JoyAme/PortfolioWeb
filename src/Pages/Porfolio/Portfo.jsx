@@ -10,9 +10,9 @@ const Portfo = () => {
     <>
     <PorfolioWrap>
     <Container>
-    <div>
-        <h5>what i have been upto.</h5>
-       <h1>MY PROJECTS</h1>
+    <div className="pro-info">
+        <h5> see what i have been upto.</h5>
+       <h1>MY PROJECTS..</h1>
     </div>
 
     <div className="project-s">
