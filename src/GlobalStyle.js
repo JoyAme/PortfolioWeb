@@ -6,7 +6,7 @@ export const Global=createGlobalStyle`
 *{
     margin:0;
     padding:0;
-    background:#FAFAFB;
+    /* background:#FAFAFB; */
     box-sizing:border-box;
 }
 

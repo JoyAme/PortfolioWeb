@@ -4,6 +4,7 @@ export const SkillWrap=styled.div  `
 
 width:100%;
 margin-top:120px;
+padding-bottom:80px;
 img{
     width:35px;
     object-fit:contain;
