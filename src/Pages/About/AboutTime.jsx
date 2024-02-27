@@ -23,8 +23,8 @@ const AboutTime = () => {
                     date={time.title}
                     info={time.Write}
                     icon={time.img}
-                    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff', height:'190px',borderRadius:'20px'}}
-                    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                    contentStyle={{ background: '#F0F0F5', color: '#fff', height:'190px',borderRadius:'20px',boxShadow: "2px 3px 0 3px #FCA61F" }}
+                    iconStyle={{ background: '#FCA61F', color: '#fff' }}
                     >
                         
                      <h2 className='vertical-timeline-element-title'>{time.title}</h2> 

@@ -105,7 +105,9 @@ z-index:-9px;
   padding:8px 20px;
 }
 @media screen and (max-width:478px){
-
+   h1{
+    font-size:30px;
+   }
   .Row{
     display:flex;
     flex-direction:column;
