@@ -1,12 +1,13 @@
 *{
   margin: 0;
-
+  padding: 0;
   box-sizing: border-box;
   background:#191B46 ;
+  
   color:white;
 
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */
 }

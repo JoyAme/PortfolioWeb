@@ -93,30 +93,38 @@ export const BackGround=[
     id:1,
     title:"Frontend Dev",
     img:<FaCode />,
+    description:'lorem12 lorem lorem lorem lorem lorem lorem',
     Write:'did alot'
     },
     {
-        id:1,
+        id:2,
         title:"Frontend Dev",
+        subTitle:'Intership: Terra Learning',
         Write:'did alot',
+        description:'lorem12 lorem lorem lorem lorem lorem lorem',
         img:<FaCode />,
         },
         {
-        id:1,
+        id:3,
             title:"Frontend Dev",
+            subTitle:'Intership: Techathon',
             img:<FaCode />,
+            description:'lorem12 lorem lorem lorem lorem lorem lorem',
             Write:'did alot'
             },
             {
-                id:1,
+                id:4,
                 title:"Frontend Dev",
+                subTitle:'Intership: Nerdy-Eyes',
                 img:<FaCode />,
+                description:'Maintaining web applications using Vue.js and other related technologies Participating in code reviews and providing constructive feedback to other developers.',
                 Write:'did alot'
                 },
                 {
-                    id:1,
+                    id:5,
                     title:"Frontend Dev",
                     img:<FaCode />,
+                    description:'lorem12 lorem lorem lorem lorem lorem lorem',
                     Write:'did alot'
                     },           
  ]
