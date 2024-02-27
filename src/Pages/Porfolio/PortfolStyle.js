@@ -3,6 +3,9 @@ import { styled } from "styled-components";
 export const PorfolioWrap=styled.div`
 width:100%;
 margin-top:90px;
+/* display:flex;
+flex-direction:column;
+text-align:center; */
 /* z-index:1000; */
 .project-s{
     margin-top:40px;

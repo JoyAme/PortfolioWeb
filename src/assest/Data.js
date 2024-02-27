@@ -87,3 +87,36 @@ export const BackGround=[
         name:'youtube'
     },
  ]
+
+ export const TimeLine=[
+    {
+    id:1,
+    title:"Frontend Dev",
+    img:<FaCode />,
+    Write:'did alot'
+    },
+    {
+        id:1,
+        title:"Frontend Dev",
+        Write:'did alot',
+        img:<FaCode />,
+        },
+        {
+        id:1,
+            title:"Frontend Dev",
+            img:<FaCode />,
+            Write:'did alot'
+            },
+            {
+                id:1,
+                title:"Frontend Dev",
+                img:<FaCode />,
+                Write:'did alot'
+                },
+                {
+                    id:1,
+                    title:"Frontend Dev",
+                    img:<FaCode />,
+                    Write:'did alot'
+                    },           
+ ]
