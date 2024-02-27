@@ -25,7 +25,7 @@ const Main = () => {
     </div>
    <div className='info-joy'>
     <h3>I build  creative and Responsive user interface<br></br> with seamless functionalities  </h3>
-    <h4>I bring to life  beautiful and interactive website ensuring wonderful
+    <h4>I bring to life an interactive website ensuring wonderful
        user experience and that it's optimize for various device. and users.give me 
        an opportunity to embark on this journey with you as we redifine user website experience </h4>
        <hr className='line1'></hr>

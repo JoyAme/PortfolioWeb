@@ -1,4 +1,5 @@
 import {BrowserRouter, Routes ,Route} from 'react-router-dom'
+import './App.css';
 import Home from './Home';
 import Main from './Pages/MainPag/Main';
 import Skill from './Pages/Skills/Skill';

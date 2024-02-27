@@ -3,9 +3,20 @@ import {styled} from 'styled-components'
 export const AboutWrap=styled.div`
 width:100%;
 margin-top:100px;
+margin-bottom:120px;
+z-index:-1000;
 /* color:white; */
-
-
+font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+#description{
+    color:black;
+    /* font-size:12px; */
+    /* width:250px; */
+}
+.vertical-timeline-element-subtitle-work{
+    background:blue;
+}
 .intro{
 
     h5{
@@ -13,7 +24,7 @@ margin-top:100px;
         font-size:40px;
     }
     p{
-        font-size:18px;
+        font-size:14px;
         margin-top:10px;
         width:480px;
     }
@@ -83,6 +94,14 @@ p{
 .emoji{
     width:40px;
     position: relative;
+}
+#description{
+    
+    font-size:12px;
+    width:250px;
+}
+.vertical-timeline-element-subtitle{
+    font-size:14px;
 }
 }
 `

@@ -3,32 +3,43 @@ import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timel
 import 'react-vertical-timeline-component/style.min.css';
 import { TimeLine } from '../../assest/Data';
 import { Container } from '../../GlobalStyle';
+import { AboutWrap } from './Aboutstyle';
 
 const AboutTime = () => {
   return (
     <div>
+        <AboutWrap>
         {/* <Container> */}
-      <h1>TimeLine</h1>
+      <h1>Experience</h1>
       <VerticalTimeline>
+      
         {
             TimeLine.map((time)=>{
                 return(
+                    // <div className='vertical-timeline-element-subtitle-content'>
                     <VerticalTimelineElement
+                    
                     key={time.key}
                     date={time.title}
                     info={time.Write}
                     icon={time.img}
-                    // iconStyle={time.img}
+                    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff', height:'190px',borderRadius:'20px'}}
+                    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                     >
+                        
                      <h2 className='vertical-timeline-element-title'>{time.title}</h2> 
                     <h2 className='vertical-timeline-element-subtitle'>{time.subTitle}</h2>
                         <p id='description'>{time.description}</p>
+                        
                     </VerticalTimelineElement>
+                   
                 )
             })
         }
+       
       </VerticalTimeline>
       {/* </Container> */}
+      </AboutWrap>
     </div>
   )
 }

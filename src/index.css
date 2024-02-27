@@ -2,12 +2,16 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background:#191B46 ;
+  /* background:#191B46 ; */
   
-  color:white;
+
 
 /* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 } */
+}
+body{
+  background:#191B46 ;
+  color:white;
 }

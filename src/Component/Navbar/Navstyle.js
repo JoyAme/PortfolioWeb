@@ -1,15 +1,31 @@
 import { styled} from "styled-components";
 
 export const Navbar=styled.div`
+font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 width:100%;
 position:fixed;
 top:0;
 left:0;
 right:0;
+z-index: 1000;
 padding:20px 0px;
+.Ja{
+    color:white;
+    font-size:25px;
+        text-decoration:none;
+}
+.navv{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+   
+}
 .nav{
     display:flex;
     justify-content:space-between;
+    gap:40px;
     align-items:center;
    
     ul{
@@ -38,5 +54,46 @@ padding:20px 0px;
         }
        }
 }
-
+.hamburger{
+    display:none;
+}
+@media screen and (max-width:478px) {
+    /* position: relative; */
+    .navv{
+        align-items:flex-start;
+        justify-content:space-between
+    }
+    .nav{
+        display:flex;
+       position:absolute;
+       right:30px;
+       top:40px;
+        background: #F0F0F5;
+        padding:20px 25px;
+        border-radius:19px;
+        gap:20px;
+        margin-top:40px;
+       
+        flex-direction:column;
+            a{
+                font-size:16px;
+            }
+            .btn{
+                background:none;
+                a{
+                    font-size:14px;
+                }
+            }
+        ul{
+            display:flex;
+        flex-direction:column;
+       gap:30px;
+      
+    }
+    }
+    .hamburger{
+    display:block;
+    font-size:40px;
+}
+}
 `

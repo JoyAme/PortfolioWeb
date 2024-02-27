@@ -4,6 +4,14 @@ import {styled} from 'styled-components'
 export const MainWrap=styled.div`
    width:100%;
    margin-top:100px;
+   font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+ 
+  a{
+    color:white;
+
+  }
   hr.line{
     width:40%;
     margin-bottom:20px;
@@ -52,30 +60,16 @@ margin:auto;
   margin-top:30px;
   
 h4{
-  width:390px;
+  width:450px;
   margin-bottom:20px;
+  font-size:14px;
 }
 h3{
-  
+  font-size:18px;
   margin-bottom:10px;
 }
 }
-.images{
-  flex:0.6;
-  position:relative;
-}
-.images h5{
-  background:white;
-  padding:25px 20px;
-  font-size:15px;
-  position:absolute;
-  border-radius:7px;
-  color:black;
-  /* border:5px solid #FCA61F; */
-  box-shadow: 2px 5px 0 3px #FCA61F;
-  top:0;
-  right:50px;
-}
+
 .Icon{
   display:flex;
   justify-content:center;
@@ -98,18 +92,7 @@ h3{
 z-index:-9px;
   
 }
-.emoji{
-  width:90px;
-  border-radius:999px;
-  position:absolute;
-  top:0;
-  left:0;
-  /* box-shadow:0 7px 0 0px black; */
-}
-.curve{
-  width:100%;
-  object-fit:cover;
-}
+
 .info h1{
  
   font-size:40px;

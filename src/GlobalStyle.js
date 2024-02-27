@@ -4,9 +4,9 @@ import { styled} from "styled-components";
 
 export const Global=createGlobalStyle`
 body{
-    margin:0;
+    /* margin:0;
     padding:0;
-    /* background:#FAFAFB; */
+    background:red; */
     /* box-sizing:border-box; */
 }
 
