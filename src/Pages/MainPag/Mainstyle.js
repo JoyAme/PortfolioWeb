@@ -115,10 +115,11 @@ z-index:-9px;
 
    h3{
   
-  font-size:16px;
+  font-size:14px;
 }
 h4{
- font-size:14px;
+    width:340px;
+ font-size:12px;
 }
 
 }
