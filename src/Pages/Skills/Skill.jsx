@@ -14,7 +14,7 @@ const Skill = () => {
             <h4>Services</h4>
             <div className='skill'>
                   <h1>MY SKILLSET?</h1>
-                 
+                 <hr className='line'></hr>
                   </div>
                   <h5 className='lorem'>Lorem ipsum dolor, sit amet 
                     consectetur adipisicing elit.<br></br> Similique,
@@ -44,6 +44,7 @@ const Skill = () => {
                     <h4>Tools</h4>
                     <div className='tech'>
                       <h1>TECHNOLOGIES</h1>
+                      <hr className='line'></hr>
                     </div>
                     {/* <span></span> */}
                   </div>
