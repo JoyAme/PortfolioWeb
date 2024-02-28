@@ -1,17 +1,19 @@
-import React from 'react'
+import { useState } from 'react'
 import {Link} from 'react-router-dom'
 import { Navbar } from './Navstyle'
 import { Container } from '../../GlobalStyle'
+import FeatherIcon from 'feather-icons-react';
 import { RxHamburgerMenu } from "react-icons/rx";
 
 const Nav = () => {
+  const [show,setShow]=useState(false)
   return (
     <>
     <Navbar>
         <Container>
           <div className='navv'>
         <Link to='/main' className='Ja'><h2>JA</h2></Link>
-    <div className='nav'>
+    <div className='nav' id={show && 'show'} >
         
         <ul>
         <li><Link to='/about'>About</Link></li>
@@ -21,7 +23,12 @@ const Nav = () => {
         </ul>
         <button className='btn'><Link to='/contact'>Contact</Link></button>
     </div>
-    <RxHamburgerMenu className='hamburger'/>
+    {
+
+    }
+  
+    <FeatherIcon icon="menu" className='hamburger' onClick={()=>setShow(!show)}/>
+    {/* <RxHamburgerMenu className='hamburger'/> */}
     </div>
     </Container>
     </Navbar>

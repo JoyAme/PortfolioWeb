@@ -93,9 +93,21 @@ padding:20px 0px;
       
     }
     }
+
+}
+
+@media screen and (max-width:768px) {
     .hamburger{
     display:block;
-    font-size:40px;
+    font-size:45px;
+    position:absolute;
+    right:19px;
+    color:white;
+    cursor: pointer;
+}
+#show{
+    display:none;
+    
 }
 }
 `
