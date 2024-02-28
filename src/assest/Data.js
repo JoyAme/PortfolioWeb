@@ -63,28 +63,48 @@ export const BackGround=[
    
     {
         img:'./images/travel.png',
-
+        title:'Travel-beta-clone',
+        link:'https://travelbeta-clone.vercel.app/',
+        GitLink:"https://github.com/JoyAme/travelbeta-clone.git"
     },
     {
         img:'./images/sociomedia.png',
+        title:'Linkedin-clone',
+        link:'https://socio-media-ochre.vercel.app/',
+        GitLink:"https://github.com/JoyAme/socio-media.git"
     },
     {
         img:'./images/Expressbuy.png',
+        title:'ExpressBuy',
+        link:'https://express-shop-drab.vercel.app/',
+        GitLink:"https://github.com/JoyAme/ExpressShop.git"
     },
     {
         img:'./images/carmain.png',
+        title:'Car-maintenance',
+        link:'https://car-maintenance-mocha.vercel.app/',
+        GitLink:'https://github.com/JoyAme/Car-Maintenance.git'
     },
     {
         img:'./images/background.jpg',
+        title:'Travel-beta-clone',
+        link:'https://travelbeta-clone.vercel.app/',
+        GitLink:"https://github.com/JoyAme/travelbeta-clone.git"
     },
     {
         img:'./images/background.jpg',
+        title:'Travel-beta-clone',
+        link:'https://travelbeta-clone.vercel.app/',
+        GitLink:"https://github.com/JoyAme/travelbeta-clone.git"
     },
     
 ]
  export const Overlay=[
     {
-        name:'youtube'
+       title:'Travel-beta-clone'
+    },
+      {
+       title:'you-tube-clone'
     },
  ]
 
@@ -93,7 +113,7 @@ export const BackGround=[
     id:1,
     title:"Frontend Dev",
     img:<FaCode />,
-    description:'lorem12 lorem lorem lorem lorem lorem lorem',
+    description:'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
     Write:'did alot'
     },
     {
@@ -101,7 +121,7 @@ export const BackGround=[
         title:"Frontend Dev",
         subTitle:'Intership: Terra Learning',
         Write:'did alot',
-        description:'lorem12 lorem lorem lorem lorem lorem lorem',
+        description:'Collaborating with team memebers to build an interactive an responsive user friendly website',
         img:<FaCode />,
         },
         {
@@ -109,7 +129,7 @@ export const BackGround=[
             title:"Frontend Dev",
             subTitle:'Intership: Techathon',
             img:<FaCode />,
-            description:'lorem12 lorem lorem lorem lorem lorem lorem',
+            description:'Developing and maintaining web applications using React.js and other related technologies.m lorem lorem lorem lorem',
             Write:'did alot'
             },
             {
@@ -124,7 +144,7 @@ export const BackGround=[
                     id:5,
                     title:"Frontend Dev",
                     img:<FaCode />,
-                    description:'lorem12 lorem lorem lorem lorem lorem lorem',
+                    description:'Implementing responsive design and ensuring cross-browser compatibility.Participating in code reviews and receiving constructive feedback from senior developers.',
                     Write:'did alot'
                     },           
  ]

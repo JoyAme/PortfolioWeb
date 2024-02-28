@@ -39,36 +39,43 @@ const Portfo = () => {
 
 {
  BackGround.map((map,id)=>{
-const {img}=map
+const {img,title,link,GitLink}=map
  return(
 <div className="project" key={id}>
         <div >
           <img src={img} alt='name'/>
         </div>
 
-{
+ {/* {
   Overlay.map((map,id)=>{
-    const {name}=map
-    return(
-        <div className="overlay" key={id}>
-        <h4>{name}</h4>
+
+    const {name}= map;
+
+    return( */}
+        <div className="overlay">
+        <h4>{title}</h4>
           <div className="github">
-            <div><FaLocationArrow className="arrow"/></div>
-          <h6>Github</h6>
+            <div>
+              <a href={link}>Live-Link</a>
+              {/* <h6 className="arrow">Live-link{link}</h6> */}
+              </div>
+          <a className='git' href={GitLink}>Github</a>
           </div>
           
           </div>
-           )
+           {/* )
           })
-}
+} */}
        
   </div>
 
 
       )
-        })
 
+      
+       
 
+})
 }
 
 

@@ -20,6 +20,8 @@ padding:20px 0px;
     display:flex;
     justify-content:space-around;
     align-items:center;
+    /* background:white; */
+    /* border-radius:19px; */
    
 }
 .nav{
