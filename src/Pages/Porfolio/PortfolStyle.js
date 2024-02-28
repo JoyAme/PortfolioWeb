@@ -79,11 +79,14 @@ justify-content:space-around;
 
 /* mobile Responsiveness */
 @media screen and (max-width:478px){
+  text-align:left;
 .project-s{
     margin-top:40px;
+    /* display:flex;
+    flex-wrap:wrap; */
     display:grid;
-    grid-template-columns:repeat(2,180px);
-    gap:20px;
+    grid-template-columns:1fr 1fr;
+    gap:10px;
 }
 .pro-info h1{
     font-size:35px;
