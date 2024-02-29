@@ -13,15 +13,17 @@ const Nav = () => {
         <Container>
           <div className='navv'>
         <Link to='/main' className='Ja'><h2>JA</h2></Link>
-    <div className='nav' id={show && 'show'} >
+    <div className={show || 'show'}>
+    <div className={`nav ${show ? 'show' : ''} `}>
         
-        <ul>
+        <ul> 
         <li><Link to='/about'>About</Link></li>
         <li>  <Link to='/skills'>Skill</Link></li>
         <li><Link to='/portfolio'>Portfolio</Link></li>
         
         </ul>
-        <button className='btn'><Link to='/contact'>Contact</Link></button>
+        <button className='btn'><Link to='/contact' className='link'>Contact</Link></button>
+    </div>
     </div>
     {
 
