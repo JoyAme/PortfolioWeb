@@ -53,6 +53,27 @@ font-family: "Poppins", sans-serif;
   top:0;
   right:0;
 }
+.obas{
+    /* width:100%; */
+    /* position:absolute;
+    bottom:0;
+    right:0; */
+    object-fit:cover;
+    height:30vw;
+    border-top-right-radius:16px;
+    border-top-left-radius:16px;
+
+}
+.basic-info{
+    margin-top:40px;
+    display:grid;
+    grid-template-columns:repeat(2,170px);
+    row-gap:40px;
+    column-gap:60px;
+    p{
+        margin-top:0;
+    }
+}
 .emoji{
   width:90px;
   border-radius:999px;
@@ -83,6 +104,25 @@ p{
 
 
 }
+.obas{
+    width:100%;
+    height:60vw;
+}
+.basic-info{
+    margin-top:40px;
+    display:grid;
+    grid-template-columns:repeat(2,40px);
+    row-gap:34px;
+    column-gap:60px;
+    /* display:flex;
+    flex-wrap:wrap; */
+ 
+  
+}
+.basic-info p{
+        margin-top:0;
+        font-size:10px;
+    }
 .images{
     text-align:center;
 }

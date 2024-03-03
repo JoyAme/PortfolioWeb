@@ -31,7 +31,7 @@ const Main = () => {
        <hr className='line1'></hr>
        </div>
     <div className='link'>
-    <Link to='/'>See portfolio</Link>
+    <Link to='/portfolio'>See portfolio</Link>
     <FaArrowRightLong className='arrow-right'/>
     </div>
 

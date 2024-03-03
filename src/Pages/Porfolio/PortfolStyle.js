@@ -45,6 +45,8 @@ img{
     border-radius:19px;
      box-shadow: 1px 1px 0 1px #FCA61F;
     height:35vh;
+    
+    transition: opacity 0.15s ease-in-out 0s, height 0.2s ease-in-out 0s, width 0.2s ease-in-out 0s;
     // background: linear-gradient(to right,#66ffe700,#66ffe7,#ff25be,#9925ff,#66ffe700);
     // /* height:100%; */
     /* display:flex;
