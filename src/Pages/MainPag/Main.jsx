@@ -39,9 +39,9 @@ const Main = () => {
     </div>
 
     <div className='Icon'>
-    <FaGithub className='icons'/>
-    <RiLinkedinFill  className='icons'/>
-    <FaInstagram className='icons'/>
+    <a href="https://github.com/JoyAme" target="_blank"><FaGithub className='icons'/></a>
+    <a href="https://www.linkedin.com/in/joy-ame-172170161/" target="_blank"><RiLinkedinFill  className='icons'/></a>
+    <a href="https://www.linkedin.com/in/joy-ame-172170161/" target="_blank"><FaInstagram className='icons'/></a>
     </div>
   </div>
 

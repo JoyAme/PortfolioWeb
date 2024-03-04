@@ -11,7 +11,7 @@ const Contact = () => {
     <ContactWrap>
       <Container>
     <div className="contact-info">
-      <h5>Want to work with Me</h5>
+      <h5>Want to work with Me?</h5>
       <h1>Contact Me.</h1>
       <h6>I create beautiful website to ensure that your brands stands unique</h6>
     </div>
@@ -33,9 +33,9 @@ const Contact = () => {
           </form>
 
           <div className="Iconsz">
-          <FaGithub className="icons"/>
-          <AiFillLinkedin className="icons"/>
-          <FaTwitter className="icons"/>
+          <a href="https://github.com/JoyAme" target="_blank"><FaGithub className="icons"/></a>
+          <a href="https://www.linkedin.com/in/joy-ame-172170161/" target="_blank"><AiFillLinkedin className="icons"/></a>
+          <a href="" target="_blank"><FaTwitter className="icons"/></a>
           </div>
         </div>
      
