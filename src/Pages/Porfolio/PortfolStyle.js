@@ -3,12 +3,13 @@ import { styled } from "styled-components";
 export const PorfolioWrap=styled.div`
 width:100%;
 margin-top:90px;
+padding-bottom:50px;
 /* display:flex;
 flex-direction:column;
 text-align:center; */
 /* z-index:1000; */
 a{
-    color:black;
+    color:white;
     text-decoration:none;
     font-size:16px;
     background:red;
@@ -16,7 +17,8 @@ a{
     border-radius:10px;
 }
 .git{
-    color:black;
+    color:white;
+    font-size:18px;
     background:none
 }
 .project-s{
@@ -37,7 +39,7 @@ a{
 img{
     width:100%;
     /* padding:20px 30px; */
-    height:15vw;
+    height:10vw;
     object-fit:cover;
     border-radius:10px;
     animation:move .4s linear;
@@ -87,12 +89,12 @@ img:hover{
 .project{
     position:relative;
     width:22vw;
-    background:whitesmoke;
+    /* background:whitesmoke; */
     /* background:white; */
     border-radius:4px;
-    /* box-shadow:3px 1px 3px 1px white; */
-    height:49vh;
-    color:black;
+    box-shadow:3px 1px 3px 1px white;
+    height:40vh;
+    color:white;
     transition: opacity 0.15s ease-in-out 0s, height 0.2s ease-in-out 0s, width 0.2s ease-in-out 0s;
     // background: linear-gradient(to right,#66ffe700,#66ffe7,#ff25be,#9925ff,#66ffe700);
     // /* height:100%; */
@@ -163,12 +165,16 @@ padding-bottom:10px;
     font-size:16px;
 }
     .project{
-    width:40vw;
+    width:35vw;
     height:100%;
  
 }
+.contain{
+    padding:10px 20px;
+}
 img{
-    height:30vw;
+    width:100%;
+    height:20vw;
 }
 .Lang{
     font-size:10px;
@@ -186,10 +192,10 @@ img{
 a{
    padding:0px 3px;
     font-size:10px;
-    color:black;
+    color:white;
 }
 .git{
-    color:black;
+    color:white;
     font-size:14px;
     background:none
 }

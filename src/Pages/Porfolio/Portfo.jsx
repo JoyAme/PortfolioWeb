@@ -57,10 +57,10 @@ const {img,title,link,GitLink,language}=map
         <h5 className="Lang">{language}</h5>
           <div className="github">
             <div>
-              <a href={link}>Live-Link</a>
+              <a href={link} target="_blank">Live-Link</a>
               {/* <h6 className="arrow">Live-link{link}</h6> */}
               </div>
-          <a className='git' href={GitLink}><FaGithub /></a>
+          <a className='git' href={GitLink} target="_blank"><FaGithub /></a>
           </div>
           <h4 className="title">{title}</h4>
           </div>
