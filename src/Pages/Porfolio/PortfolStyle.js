@@ -8,15 +8,15 @@ flex-direction:column;
 text-align:center; */
 /* z-index:1000; */
 a{
-    color:white;
+    color:black;
     text-decoration:none;
-    font-size:14px;
+    font-size:16px;
     background:red;
     padding:2px 10px;
     border-radius:10px;
 }
 .git{
-    color:white;
+    color:black;
     background:none
 }
 .project-s{
@@ -31,21 +31,68 @@ a{
     font-size:50px;
     margin-top:10px;
 }
+.contain{
+    padding:20px 30px;
+}
 img{
     width:100%;
-    padding:10px 10px;
+    /* padding:20px 30px; */
     height:15vw;
     object-fit:cover;
-    border-radius:12px;
+    border-radius:10px;
+    animation:move .4s linear;
+    box-shadow:3px 5px 3px 5px black;
 }
+.title{
+    margin-top:20px;
+}
+.Lang{
+    margin-top:15px;
+}
+.contain{
+    /* width:90%;
+    text-align:center; */
+}
+img:hover{
+    /* z-index:100; */
+    animation: scale 0.4s linear;
+    animation-fill-mode:forwards;
+   
+}
+
+@keyframes move {
+    0%{
+        -webkit-transform:scale(1.1);
+        transform:scale(1.1)
+    }
+    100%{
+        -webkit-transform:scale(1.0);
+        transform:scale(1.0)
+    }
+}
+
+@keyframes scale {
+    0%{
+        -webkit-transform:scale(1.0);
+        transform:scale(1.0)
+    }
+    100%{
+        -webkit-transform:scale(1.1);
+        transform:scale(1.1)
+    }
+}
+
+
+
 .project{
     position:relative;
-    width:23vw;
+    width:22vw;
+    background:whitesmoke;
     /* background:white; */
-    border-radius:19px;
-     box-shadow: 1px 1px 0 1px #FCA61F;
-    height:35vh;
-    
+    border-radius:4px;
+    /* box-shadow:3px 1px 3px 1px white; */
+    height:49vh;
+    color:black;
     transition: opacity 0.15s ease-in-out 0s, height 0.2s ease-in-out 0s, width 0.2s ease-in-out 0s;
     // background: linear-gradient(to right,#66ffe700,#66ffe7,#ff25be,#9925ff,#66ffe700);
     // /* height:100%; */
@@ -80,7 +127,8 @@ padding-bottom:10px;
 .github{
     display:flex;
     cursor: pointer;
-    gap:20px;
+    justify-content:space-between;
+   margin-top:5px;
     align-items:center;
      h6{
         background:transparent;
@@ -122,6 +170,12 @@ padding-bottom:10px;
 img{
     height:30vw;
 }
+.Lang{
+    font-size:10px;
+}
+.title{
+    font-size:12px;
+}
 .overlay{
     width:40vw;
    
@@ -131,11 +185,12 @@ img{
 }
 a{
    padding:0px 3px;
-    font-size:8px;
-    
+    font-size:10px;
+    color:black;
 }
 .git{
-    color:white;
+    color:black;
+    font-size:14px;
     background:none
 }
 }

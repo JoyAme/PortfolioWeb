@@ -64,36 +64,42 @@ export const BackGround=[
     {
         img:'./images/travel.png',
         title:'Travel-beta-clone',
+        language:'Html & Css',
         link:'https://travelbeta-clone.vercel.app/',
         GitLink:"https://github.com/JoyAme/travelbeta-clone.git"
     },
     {
         img:'./images/sociomedia.png',
         title:'Linkedin-clone',
+        language:'ReactJs, Styled-components & Firebase',
         link:'https://socio-media-ochre.vercel.app/',
         GitLink:"https://github.com/JoyAme/socio-media.git"
     },
     {
         img:'./images/Expressbuy.png',
         title:'ExpressBuy',
+        language:'ReactJs, Styled-components',
         link:'https://express-shop-drab.vercel.app/',
         GitLink:"https://github.com/JoyAme/ExpressShop.git"
     },
     {
         img:'./images/carmain.png',
         title:'Car-maintenance',
+        language:'Html & Css',
         link:'https://car-maintenance-mocha.vercel.app/',
         GitLink:'https://github.com/JoyAme/Car-Maintenance.git'
     },
     {
         img:'./images/background.jpg',
         title:'Travel-beta-clone',
+        language:'ReactJs, Styled-components',
         link:'https://travelbeta-clone.vercel.app/',
         GitLink:"https://github.com/JoyAme/travelbeta-clone.git"
     },
     {
         img:'./images/background.jpg',
         title:'Travel-beta-clone',
+        language:'ReactJs, Styled-components',
         link:'https://travelbeta-clone.vercel.app/',
         GitLink:"https://github.com/JoyAme/travelbeta-clone.git"
     },
@@ -137,7 +143,7 @@ export const BackGround=[
                 title:"Frontend Dev",
                 subTitle:'Intership: Nerdy-Eyes',
                 img:<FaCode />,
-                description:'Maintaining web applications using Vue.js and other related technologies Participating in code reviews and providing constructive feedback to other developers.',
+                description:'Maintaining web applications using react.js and other related technologies Participating in code reviews and providing constructive feedback to other developers.',
                 Write:'did alot'
                 },
                 {

@@ -32,7 +32,10 @@ const Main = () => {
        </div>
     <div className='link'>
     <Link to='/portfolio'>See portfolio</Link>
-    <FaArrowRightLong className='arrow-right'/>
+    <div className="AAAA">
+    {/* <FaArrowRightLong className='arrow-right'/> */}
+    <FaArrowRightLong className='arrow-right1'/>
+    </div>
     </div>
 
     <div className='Icon'>

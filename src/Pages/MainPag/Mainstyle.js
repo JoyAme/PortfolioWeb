@@ -42,10 +42,29 @@ span{
   a{
     font-size:20px;
   }
-  .arrow-right{
-    font-size:16px;
-  }
+ 
+ 
 }
+/* .AAA{
+animation: move 1.1s infinite ease-in-out;
+
+} */
+ /* .arrow-right{
+    font-size:16px;
+    
+    transform:rotate(-45deg)
+  } */
+  .arrow-right1{
+    font-size:16px;
+    animation: move 2.1s infinite ease-in-out;
+    transform:rotateX('angle');
+  }
+@keyframes move {
+    /* 0%{margin-right:0;} */
+    50%{margin-right:100px;}
+    100%{margin-right:0;}
+}
+
 .Row{
   display:flex;
   align-items:center;
