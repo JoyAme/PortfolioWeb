@@ -24,6 +24,7 @@ padding:20px 0px;
     /* border-radius:19px; */
    
 }
+
 .nav{
     display:flex;
     justify-content:space-between;
@@ -62,7 +63,17 @@ padding:20px 0px;
 
 @media screen and (max-width:478px) {
     /* position: relative; */
+    .nav{
+        .btn{
+            
+            a{
+                color:grey;
+                font-size:28px;
+            }
     
+} 
+    }
+
  
 
 }
@@ -80,8 +91,37 @@ padding:20px 0px;
     color:white;
     cursor: pointer;
 }
+
+
+
+@keyframes move {
+    0%{
+        -webkit-transform:scale(1.1);
+        transform:scale(1.1)
+    }
+    100%{
+        -webkit-transform:scale(1.0);
+        transform:scale(1.0)
+    }
+}
+
+@keyframes scale {
+    0%{
+        -webkit-transform:scale(1.0);
+        transform:scale(1.0)
+    }
+    100%{
+        -webkit-transform:scale(1.1);
+        transform:scale(1.1)
+    }
+}
+.navv{
+    text-align:start;
+}
 .nav{
         display:flex;
+        
+
         flex-direction:column;
        position:absolute;
        right:30px;
@@ -91,15 +131,17 @@ padding:20px 0px;
         border-radius:19px;
         gap:20px;
         margin-top:40px;
-      transition:max-height 0.5s;
+        animation: scale 0.4s linear;
+    animation-fill-mode:forwards;
         display:none;
             a{
                 font-size:16px;
             }
             .btn{
                 background:none;
+              margin-top:10px;
                 a{
-                    font-size:14px;
+                    font-size:16px;
                 }
             }
         ul{

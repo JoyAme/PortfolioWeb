@@ -20,9 +20,11 @@ const Nav = () => {
         <li><Link to='/about'>About</Link></li>
         <li>  <Link to='/skills'>Skill</Link></li>
         <li><Link to='/portfolio'>Portfolio</Link></li>
-        
+       
         </ul>
-        <button className='btn'><Link to='/contact' className='link'>Contact</Link></button>
+      
+         <button className='btn'><Link to='/contact' className='link'>Contact</Link></button>
+         
     </div>
     </div>
     {

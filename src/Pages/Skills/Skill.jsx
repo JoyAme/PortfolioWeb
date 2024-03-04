@@ -16,10 +16,10 @@ const Skill = () => {
                   <h1>MY SKILLSET?</h1>
                  <hr className='line'></hr>
                   </div>
-                  <h5 className='lorem'>Lorem ipsum dolor, sit amet 
+                  {/* <h5 className='lorem'>Lorem ipsum dolor, sit amet 
                     consectetur adipisicing elit.<br></br> Similique,
                     doloremque? Impedit
-                    reiciendis ducimus?</h5>
+                    reiciendis ducimus?</h5> */}
             </div>
 
 

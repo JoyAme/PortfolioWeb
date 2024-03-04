@@ -20,7 +20,7 @@ const AboutTime = () => {
                     <VerticalTimelineElement
                     
                     key={time.key}
-                    date={time.title}
+                    // date={time.title}
                     info={time.Write}
                     icon={time.img}
                     contentStyle={{ background: '#F0F0F5', color: '#fff', height:'190px',borderRadius:'20px',boxShadow: "2px 3px 0 3px #FCA61F" }}
