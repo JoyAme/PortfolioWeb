@@ -11,7 +11,7 @@ font-family: "Poppins", sans-serif;
   font-style: normal;
 #description{
     color:black;
-    /* font-size:12px; */
+    font-size:12px;
     /* width:250px; */
 }
 .vertical-timeline-element-subtitle-work{

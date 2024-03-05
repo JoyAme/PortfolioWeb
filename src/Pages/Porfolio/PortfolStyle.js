@@ -93,7 +93,7 @@ img:hover{
     /* background:white; */
     border-radius:4px;
     box-shadow:3px 1px 3px 1px white;
-    height:40vh;
+    /* height:40vh; */
     color:white;
     transition: opacity 0.15s ease-in-out 0s, height 0.2s ease-in-out 0s, width 0.2s ease-in-out 0s;
     // background: linear-gradient(to right,#66ffe700,#66ffe7,#ff25be,#9925ff,#66ffe700);
@@ -166,7 +166,7 @@ padding-bottom:10px;
 }
     .project{
     width:35vw;
-    height:100%;
+    /* height:100%; */
  
 }
 .contain{
