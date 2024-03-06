@@ -97,11 +97,11 @@ export const BackGround=[
         GitLink:"https://github.com/JoyAme/travelbeta-clone.git"
     },
     {
-        img:'./images/background.jpg',
-        title:'Travel-beta-clone',
+        img:'./images/portfolio.png',
+        title:'Portfolio-website',
         language:'ReactJs, Styled-components',
-        link:'https://travelbeta-clone.vercel.app/',
-        GitLink:"https://github.com/JoyAme/travelbeta-clone.git"
+        link:'https://portfolio-web-ruby-psi.vercel.app/',
+        GitLink:"https://github.com/JoyAme/PortfolioWeb.git"
     },
     
 ]

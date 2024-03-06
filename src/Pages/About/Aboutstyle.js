@@ -12,7 +12,7 @@ font-family: "Poppins", sans-serif;
 #description{
     color:black;
     font-size:12px;
-    /* width:250px; */
+   width:250px;
 }
 .vertical-timeline-element-subtitle-work{
     background:blue;

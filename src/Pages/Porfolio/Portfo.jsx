@@ -1,9 +1,9 @@
 import { Container } from "../../GlobalStyle"
 import { PorfolioWrap } from "./PortfolStyle"
-import { FaLocationArrow } from "react-icons/fa6";
+// import { FaLocationArrow } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 
-import { BackGround, Data, Overlay } from "../../assest/Data";
+import { BackGround } from "../../assest/Data";
 
 
 const Portfo = () => {
@@ -57,10 +57,10 @@ const {img,title,link,GitLink,language}=map
         <h5 className="Lang">{language}</h5>
           <div className="github">
             <div>
-              <a href={link} target="_blank">Live-Link</a>
+              <a href={link} target="_blank" rel="noreferrer">Live-Link</a>
               {/* <h6 className="arrow">Live-link{link}</h6> */}
               </div>
-          <a className='git' href={GitLink} target="_blank"><FaGithub /></a>
+          <a className='git' href={GitLink} target="_blank" rel="noreferrer"><FaGithub /></a>
           </div>
           <h4 className="title">{title}</h4>
           </div>

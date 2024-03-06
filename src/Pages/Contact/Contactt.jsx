@@ -33,8 +33,8 @@ const Contact = () => {
           </form>
 
           <div className="Iconsz">
-          <a href="https://github.com/JoyAme" target="_blank"><FaGithub className="icons"/></a>
-          <a href="https://www.linkedin.com/in/joy-ame-172170161/" target="_blank"><AiFillLinkedin className="icons"/></a>
+          <a href="https://github.com/JoyAme" target="_blank" rel="noreferrer"><FaGithub className="icons"/></a>
+          <a href="https://www.linkedin.com/in/joy-ame-172170161/" target="_blank" rel="noreferrer"><AiFillLinkedin className="icons"/></a>
           <a href="" target="_blank"><FaTwitter className="icons"/></a>
           </div>
         </div>
