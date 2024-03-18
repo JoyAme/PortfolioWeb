@@ -90,11 +90,11 @@ export const BackGround=[
         GitLink:'https://github.com/JoyAme/Car-Maintenance.git'
     },
     {
-        img:'./images/background.jpg',
-        title:'Travel-beta-clone',
-        language:'ReactJs, Styled-components',
-        link:'https://travelbeta-clone.vercel.app/',
-        GitLink:"https://github.com/JoyAme/travelbeta-clone.git"
+        img:'./images/crowdheart.png',
+        title:'Crowd-heart',
+        language:'Html,css and js',
+        link:'https://crowdheart.netlify.app/',
+        GitLink:"https://github.com/Etinhandy/CrowdHearts-Landing-page.git"
     },
     {
         img:'./images/portfolio.png',
