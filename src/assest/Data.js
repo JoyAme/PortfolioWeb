@@ -62,11 +62,11 @@ import { VscDebugAll } from "react-icons/vsc";
 export const BackGround=[
    
     {
-        img:'./images/travel.png',
-        title:'Travel-beta-clone',
-        language:'Html & Css',
-        link:'https://travelbeta-clone.vercel.app/',
-        GitLink:"https://github.com/JoyAme/travelbeta-clone.git"
+        img:'./images/tomato.png',
+        title:'Food-Delivery',
+        language:'reactjs nd Tailwind css',
+        link:'https://food-delivery-ashen-zeta.vercel.app/',
+        GitLink:"https://github.com/JoyAme/FoodDelivery.git"
     },
     {
         img:'./images/sociomedia.png',
